@@ -5,7 +5,7 @@ export default {
     mode: "development",
     entry: "./src/index.js",
     output: {
-        path: path.resolve(import.meta.dirname, "dist"),
+        path: path.resolve(import.meta.dirname, "docs"),
         filename: "main.js",
         clean: true
     },
