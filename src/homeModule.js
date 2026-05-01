@@ -1,7 +1,7 @@
 import { getContainer } from "./index.js"
 
 function homeModule(){
-    const container = getContainer()
+    const container = document.querySelector('#content')
     const textContainer = document.createElement('div')
     const headline = document.createElement('h2')
     const tagline = document.createElement('p')
@@ -32,7 +32,6 @@ function homeModule(){
 
     // append to text container
     textContainer.append(headline, tagline, contactBtn)
-    return contactBtn
 }
 
 export {homeModule}

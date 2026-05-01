@@ -1,7 +1,7 @@
 import { getContainer } from "./index.js"; 
 
 function contactModule(){
-    const container = getContainer()
+    const container = document.querySelector('#content')
     const div = document.createElement('div')
     const logoTitle = document.createElement('h1')
     const address = document.createElement('address')

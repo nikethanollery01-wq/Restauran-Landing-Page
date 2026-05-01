@@ -6,7 +6,6 @@ import { contactModule } from "./contactModule.js";
 
 (function () {
     const navBar = document.querySelector('.nav-bar')
-    const contactUsBtn = homeModule()
     homeModule()
     navBar.addEventListener('click',(event) => {
         const target = event.target
@@ -20,13 +19,4 @@ import { contactModule } from "./contactModule.js";
             contactModule()
         }
     })
-    contactUsBtn.addEventListener('click',()=>{
-        contactModule()
-    })
 })();
-
-function getContainer(){
-    return document.querySelector('#content');
-}
-
-export {getContainer}

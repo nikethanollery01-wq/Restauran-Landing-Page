@@ -9,7 +9,7 @@ class Item {
 }
 
 function menuModule(){
-    const container = getContainer()
+     const container = document.querySelector('#content')
     const arrayItems = []
     //initial empty content
     //clear container class and add a class
