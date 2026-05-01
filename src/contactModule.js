@@ -1,5 +1,3 @@
-import { getContainer } from "./index.js"; 
-
 function contactModule(){
     const container = document.querySelector('#content')
     const div = document.createElement('div')

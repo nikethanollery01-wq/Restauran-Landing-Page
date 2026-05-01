@@ -1,4 +1,5 @@
-import { getContainer } from "./index.js"
+import { contactModule } from "./contactModule.js";
+
 
 function homeModule(){
     const container = document.querySelector('#content')
@@ -32,6 +33,11 @@ function homeModule(){
 
     // append to text container
     textContainer.append(headline, tagline, contactBtn)
+
+    //
+    contactBtn.addEventListener('click',() =>{
+        contactModule()
+    })
 }
 
 export {homeModule}

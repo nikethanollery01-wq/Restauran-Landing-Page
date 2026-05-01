@@ -1,5 +1,3 @@
-import { getContainer } from "./index.js"
-
 class Item {
     constructor(name,price,description){
         this.name = name
