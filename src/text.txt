@@ -1,0 +1,46 @@
+To ensure your website's UI looks professional against that deep, dark charred wood background, you want a palette that offers high contrast for readability while maintaining a sophisticated "gastropub" aesthetic.
+
+Since your background is a very dark, textured black/charcoal, here are the recommended hex codes:
+
+### 1. Typography & Text Colors
+You want to avoid pure white ($#FFFFFF$), as it can be too jarring against a dark background. A "warm white" or "cream" feels more organic and high-end.
+
+* **Primary Heading:** `#F5F5F0` (Off-white/Cream)
+* **Body Text:** `#D1D1CB` (Light Gray with a hint of warmth)
+* **Accent Text (Labels/Small Caps):** `#C5A059` (Muted Gold - pulls from the roasted chicken skin)
+
+---
+
+### 2. Navigation Bar
+To keep the "Hero" image the star of the show, the nav bar should be semi-transparent or a solid deep charcoal.
+
+* **Nav Background:** `#121212` (Deep Charcoal)
+* **Nav Text:** `#F5F5F0`
+* **Nav Link (Active/Hover):** `#C5A059` (Muted Gold)
+
+---
+
+### 3. Action Buttons (CTA)
+For the buttons, you want to pull colors from the food itself (the lemons and the golden-brown chicken) to create a "delicious" visual harmony.
+
+| State | Hex Code | Visual Description |
+| :--- | :--- | :--- |
+| **Primary Button** | `#D4AF37` | **Metallic Gold** (Pops against the black wood) |
+| **Button Text** | `#1A1A1A` | **Dark Charcoal** (For maximum legibility on the gold) |
+| **Hover State** | `#E6C35C` | **Bright Lemon Gold** (A lighter, "glowing" version of the button) |
+
+---
+
+### 4. Implementation Tip
+Since your image has the subject on the **extreme right**, ensure your text container on the left has a subtle "Glow" or a very soft gradient overlay if the wood grain is too busy. 
+
+**Quick CSS Tip for the Background:**
+```css
+/* To match the wood texture precisely */
+body {
+  background-color: #0A0A0A; 
+  color: #F5F5F0;
+}
+```
+
+Does this color scheme fit the vibe of the brand you're building, or were you looking for something more "modern/minimalist" with cooler tones?
