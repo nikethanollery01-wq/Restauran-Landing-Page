@@ -51,6 +51,7 @@ button:hover{
     color: #C5A059;
 }
 
+
 nav{
     gap: 15px;
 }
@@ -85,10 +86,12 @@ nav{
     margin: 0 auto 0 0;
 }
 
-.contact-btn:hover{
+.contact-btn:hover,
+.contact-btn:focus{
     background-color: #FFD700;
     color: #1a1a1a;
 }
+
 
 .head-line{
     font-size: 3.5em;
