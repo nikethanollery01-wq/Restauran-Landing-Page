@@ -35,7 +35,7 @@ function homeModule(){
     textContainer.append(headline, tagline, contactBtn)
 
     //
-    contactBtn.addEventListener('click',() =>{
+    contactBtn.addEventListener('click', () =>{ 
         contactModule()
     })
 }
